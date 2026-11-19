@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #f0f8f2;
+            text-align: center;
+        }
+
+        .galeria{
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            margin-top: 40px;
+        }
+        .galeria img{
+            width: 250px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 15px;
+            border: 3px solid #ddb137;
+            box-shadow: 0 4px 10px #999;
+            transition: all 0.3s;
+        }
+        .galeria img:hover{
+            transform: scale(1.1);
+            border-color: #999;
+            box-shadow: 0 10px 25px #66bb;
+            cursor: pointer;
+
+        }
+
+        nav{
+            background-color: aliceblue;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a{
+            color: rgb(156, 125, 38);
+            text-decoration: none;
+            background-color: #151672;
+            padding: 12px 20px;
+            margin: 5px;
+            border-radius: 9px;
+            display: inline-block;
+        }
+        nav a:hover{
+            background-color: #539255;
+            color:rgb(9, 73, 146)
+        }
+
+
+        h1{
+            text-align: center;
+            color:rgb(0, 0, 0)
+        }
+         button{
+            width: 100px;
+            background-color: #176b43;
+            color: aliceblue;
+            padding: 14px;
+            border: none;
+            border-radius: 8px;
+            font-size: 17px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <a href="conocenos.html">
+     <button>Anterior</button>
+    </a>
+    <a href="listas_de_precios.html">
+     <button>Siguiente</button>
+    </a>
+    <a href="index.html">
+    <button>Inicio</button>
+    </a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1>Galeria</h1>
+    <div class="galeria">
+        <img src="img/img3.jpeg">
+        <img src="img/img4.jpeg">
+        <img src="img/img5.jpeg">
+        <img src="img/juguetes.jpg">
+    </div>
+    <div class="galeria">
+        <img src="img/bocina.jpg">
+        <img src="img/cargador.jpg">
+        <img src="img/carritos mayoreo.jpg">
+        <img src="img/carritos1.jpg">
+    </div>
+    <div class="galeria">
+        <img src="img/img1.jpg">
+         <img src="img/cintos.jpg">
+         <img src="img/cocinita1.jpg">
+         <img src="img/comidita1.jpg">
+    </div>
+    <div class="galeria">
+        <img src="img/gorras.jpg">
+        <img src="img/juegos mesa.jpg">
+        <img src="img/pizarron.jpg">
+        <img src="img/tradicionales.jpg">
+    </div>
+</body>
+</html>

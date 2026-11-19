@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f1;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .formulario {
+    background-color: white;
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #cccccc;
+  }
+  h2 {
+    text-align: center;
+    color: #38a829;
+  }
+  label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #18a543;
+  }
+  input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d0d0d0;
+    border-radius: 8px;
+    font-size: 15px;
+    background-color: #f9fafa;
+    box-sizing: border-box;
+  }
+  textarea {
+    height: 120px;
+    resize: vertical;
+  }
+  button {
+    background-color: #3b9238;
+    color: white;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+</style>
+</head>
+<body>
+    <center>
+    <a href="listas_de_precios.html">
+        <button>Anterior</button>
+    </a>
+    <a href="index.html">
+        <button>Inicio</button>
+    </a>
+    </center>
+    <br>
+    <br>
+    <br>
+<div class="formulario">
+  <h2>Contáctanos</h2>
+  <form action="#" method="post">
+
+    <label for="nombre">Nombre completo:</label>
+    <input type="text" id="nombre" name="nombre">
+
+    <label for="correo">Correo electrónico:</label>
+    <input type="email" id="correo" name="correo">
+
+    <label for="genero">Género:</label>
+    <select id="genero" name="genero">
+      <option>Seleccionar</option>
+      <option value="masculino">Masculino</option>
+      <option value="femenino">Femenino</option>
+      <option value="no_especificar">Prefiero no especificar</option>
+    </select>
+
+    <label for="edad">Edad:</label>
+    <select id="edad" name="edad">
+      <option>Seleccionar edad</option>
+      <option>15</option>
+      <option>16</option>
+      <option>17</option>
+      <option>18</option>
+      <option>19</option>
+      <option>20</option>
+      <option>21</option>
+      <option>22</option>
+      <option>23</option>
+      <option>24</option>
+      <option>25</option>
+      <option>26</option>
+      <option>27</option>
+      <option>28</option>
+      <option>29</option>
+      <option>30</option>
+      <option>31</option>
+      <option>32</option>
+      <option>33</option>
+      <option>34</option>
+      <option>35</option>
+      <option>36</option>
+      <option>37</option>
+      <option>38</option>
+      <option>39</option>
+      <option>40</option>
+      <option>41</option>
+      <option>42</option>
+      <option>43</option>
+      <option>44</option>
+      <option>45</option>
+    </select>
+
+    <label for="comentario">Comentarios:</label>
+    <textarea id="comentario" name="comentario" placeholder="Escribe aquí"></textarea>
+
+    <button type="submit">Enviar comentario</button>
+    </style>
+</head>
+<body>
+    
+</body>
+</html>

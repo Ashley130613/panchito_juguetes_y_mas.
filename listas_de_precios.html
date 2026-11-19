@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #edf6ee;
+            margin: 20px;
+        }
+        h1{
+            text-align: center;
+            color:rgb(12, 99, 9);
+        }
+        h2{
+            text-align: center;
+            color: #260351;
+        }
+        .contenedor{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap:15px;
+            max-width: 1000px;
+            margin:auto
+        }
+        .card{
+            background-color: rgb(180, 180, 231);
+            border-radius: 12px;
+            padding:15px;
+            text-align: center;
+            box-shadow: 0 4px 8px #413e3e;
+            transition: 0.3s;
+        }
+        .card img{
+            width:70%;
+            height:50%;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px #999;
+            transition: all 0.3s;
+        }
+        .card img:hover{
+            transform: scale(1.1);
+            box-shadow: 0 10px 25px #666;
+            cursor: pointer;
+        }
+        .card p{
+            color:#300c0ccd;
+            font-size:12px;
+        }
+        nav{
+            background-color: aliceblue;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a{
+            color: aliceblue;
+            text-decoration: none;
+            background-color: #4caf50;
+            padding: 12px 20px;
+            margin: 5px;
+            border-radius: 9px;
+            display: inline-block;
+        }
+        nav a:hover{
+            background-color: #539255;
+            color:rgb(67, 123, 187)
+        }
+         button{
+            width: 100px;
+            background-color: #176b43;
+            color: aliceblue;
+            padding: 14px;
+            border: none;
+            border-radius: 8px;
+            font-size: 17px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+    </style>    
+</head>
+<body>
+    <center>
+        <a href="galeria.html">
+          <button>Anterior</button>
+        </a>
+        <a href="contacto.html">
+        <button>Siguiente</button>
+            </a>
+        <a href="index.html">
+        <button>Inicio</button>
+        </a>  
+    </center>
+    <br>
+    <br>
+    <br>
+    <h1>Lista de precios</h1>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>    
+    <div class="contenedor">
+        <div class="card">
+            <img src="img/img1.jpg">
+            <h2>Insectos de goma</h2>
+            <p>$10.00</p>
+        </div>
+        <div class="card">
+            <img src="img/juguetes.jpg">
+            <h2>Juguetes para niñas y niños</h2>
+            <p>$30.00 c/u</p>
+        </div>
+        <div class="card">
+            <img src="img/img3.jpeg">
+            <h2>Juguetes para niñas</h2>
+            <p>$15.50 c/u</p>
+        </div>
+        <div class="card">
+            <img src="img/img4.jpeg">
+            <h2>Cubo rubic</h2>
+            <p>$36 c/u</p>
+        </div>    
+        <div class="card">
+            <img src="img/carritos mayoreo.jpg">
+            <h2>Carritos</h2>
+            <p>$15.00 c/u</p>
+        </div>
+        <div class="card">
+            <img src="img/cocinita1.jpg">
+            <h2>Cocinita de juguete</h2>
+            <p>$45.00</p>
+        </div>
+        <div class="card">
+            <img src="img/comidita1.jpg">
+            <h2>Comida de juguete</h2>
+            <p>$35.00</p>
+        </div>
+        <div class="card">
+            <img src="img/carritos1.jpg">
+            <h2>Carritos</h2>
+            <p>$15.50c/u</p>
+        </div>
+        <div class="card">
+            <img src="img/tradicionales.jpg">
+            <h2>Juguetes tradicionales</h2>
+            <p>$30.00 c/u</p>
+        </div>
+        <div class="card">
+            <img src="img/juegos mesa.jpg">
+            <h2>Juegos de mesa</h2>
+            <p>$40.00 c/u</p>
+        </div>
+        <div class="card">
+            <img src="img/pizarron.jpg">
+            <h2>Pizarron magnetico</h2>
+            <p>$40.00 c/u</p>
+        </div>
+        <div class="card">
+            <img src="img/bocina.jpg">
+            <h2>Bocina</h2>
+            <p>$280.00</p>
+        </div>
+        <div class="card">
+            <img src="img/cargador.jpg">
+            <h2>Cargador usb tipo c </h2>
+            <p>$60.00</p>
+        </div>
+        <div class="card">
+            <img src="img/cintos.jpg">
+            <h2>Cintos vaqueros</h2>
+            <p>$280.00</p>
+        </div>
+        <div class="card">
+            <img src="img/gorras.jpg">
+            <h2>Gorra</h2>
+            <p>$200.00</p>
+        </div>
+    </div>
+
+</body>
+</html>
